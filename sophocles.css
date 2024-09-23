@@ -1,71 +1,34 @@
-body {
+/* Speech class for spoken text */
+.speech {
     font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
-    color: #333;
-    margin: 0;
-    padding: 20px;
+    font-size: 16px;
+    color: black;
 }
 
-h1 {
-    color: darkblue;
-    font-size: 2em;
-    text-align: center;
+/* Direction class for stage directions */
+.direction {
+    font-family: "Times New Roman", serif;
+    font-size: 14px;
+    color: black;
+    background-color: #f0f0f0;
+    padding: 5px;
 }
 
-h2 {
-    color: darkred;
-    margin-top: 40px;
+/* Hover effect for directions */
+.direction:hover {
+    background-color: #d3d3d3;
+    color: #333333;
 }
 
-.name {
-    font-weight: bold;
-    color: darkgreen;
-}
-
+/* Character-specific styles */
 .phi {
-    color: green;
-}
-
-.neo {
     color: blue;
 }
 
-.odysseus {
+.neo {
+    color: green;
+}
+
+.od {
     color: red;
-}
-
-
-.direction {
-    font-style: italic;
-    color: gray;
-    background-color: #e0e0e0;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-
-.speech {
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 10px;
-}
-
-th {
-    background-color: darkblue;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
 }
