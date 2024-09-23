@@ -1,11 +1,9 @@
-/* Speech class for spoken text */
 .speech {
     font-family: Arial, sans-serif;
     font-size: 16px;
     color: black;
 }
 
-/* Direction class for stage directions */
 .direction {
     font-family: "Times New Roman", serif;
     font-size: 14px;
@@ -14,13 +12,10 @@
     padding: 5px;
 }
 
-/* Hover effect for directions */
 .direction:hover {
     background-color: #d3d3d3;
     color: #333333;
 }
-
-/* Character-specific styles */
 .phi {
     color: blue;
 }
