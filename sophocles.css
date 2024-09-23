@@ -1,33 +1,71 @@
-.speech {
+body {
     font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: black;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
 }
 
-.direction {
-    font-family: Georgia, serif;
-    font-size: 14px;
-    color: black;
-    background-color: #f0f0f0;
+h1 {
+    color: darkblue;
+    font-size: 2em;
+    text-align: center;
 }
 
-.direction:hover {
-    background-color: #d0d0d0;
-    color: #ff0000;
+h2 {
+    color: darkred;
+    margin-top: 40px;
 }
 
 .name {
     font-weight: bold;
+    color: darkgreen;
 }
 
 .phi {
-    color: blue;
+    color: green;
 }
 
 .neo {
-    color: green;
+    color: blue;
 }
 
 .odysseus {
     color: red;
+}
+
+
+.direction {
+    font-style: italic;
+    color: gray;
+    background-color: #e0e0e0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+.speech {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 10px;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
 }
