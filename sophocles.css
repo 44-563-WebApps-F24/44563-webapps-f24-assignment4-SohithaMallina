@@ -1,68 +1,21 @@
-/* Styles for spoken text */
 .speech {
     font-family: Arial, sans-serif;
     font-size: 16px;
-    color: black; /* Default text color for speech */
+    color: black;
 }
-
-/* Styles for non-spoken directions */
 .direction {
-    font-family: Times, serif;
+    font-family: "Courier New", monospace;
     font-size: 14px;
-    color: black; /* Text color for directions */
-    background-color: #f0f0f0; /* Light background color for directions */
-    padding: 5px;
-    margin-bottom: 10px;
+    color: black;
+    background-color: lightgray;
 }
-
-/* Hover effect for directions */
 .direction:hover {
-    background-color: #d0d0d0; /* Change background color on hover */
-    color: #333; /* Change text color on hover */
+    background-color: darkgray;
+    color: white;
 }
-
-/* Character name styles */
-.name {
-    font-weight: bold;
-}
-
-/* Hover effect on character names */
-.name:hover {
-    text-shadow: 3px 3px 5px rgba(255, 0, 0, 0.7); /* Shadow color and blur */
-    border: 2px solid rgba(255, 0, 0, 0.7); /* Border color */
-    padding: 2px;
-}
-
-/* Specific character styles */
 .philoctetes {
-    color: #1f77b4; /* Blue */
+    color: blue;
 }
-
-.odysseus {
-    color: #ff7f0e; /* Orange */
-}
-
 .neoptolemus {
-    color: #2ca02c; /* Green */
-}
-
-/* Table styles */
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-th, td {
-    padding: 10px;
-    border: 1px solid #ddd;
-    text-align: left;
-}
-
-th {
-    background-color: #f2f2f2;
-}
-
-tr:nth-child(even) {
-    background-color: #f9f9f9;
+    color: red;
 }
