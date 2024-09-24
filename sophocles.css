@@ -43,3 +43,16 @@ th, td {
 tr:nth-child(even) {
     background-color: #f2f2f2;
 }
+.speech {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+}
+
+.phi {
+    color: blue;
+}
+
+.odysseus {
+    color: red;
+}
