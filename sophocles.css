@@ -1,37 +1,31 @@
+/* Define styles for the speech and directions */
 .speech {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: 16px;
     color: black;
 }
+
 .direction {
-    font-family: "Courier New", monospace;
+    font-family: 'Courier New', monospace;
     font-size: 14px;
     color: black;
     background-color: lightgray;
+    padding: 5px;
 }
+
 .direction:hover {
-    background-color: darkgray;
-    color: white;
+    background-color: yellow;
 }
-.philoctetes {
+
+/* Define unique styles for each character */
+.phi {
     color: blue;
 }
-.neoptolemus {
+
+.neo {
+    color: green;
+}
+
+.od {
     color: red;
-}
-table {
-    border-collapse: collapse;
-    width: 100%;
-}
-th, td {
-    border: 1px solid black;
-    padding: 8px;
-    text-align: left;
-}
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-.philoctetes:hover {
-    text-shadow: 2px 2px 5px purple;
-    border: 1px solid purple;
 }
