@@ -64,3 +64,24 @@ tr:nth-child(even) {
     padding: 5px; 
     transition: all 0.3s ease-in-out;
 }
+ul.navbar-horizontal {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.navbar-horizontal li {
+    float: left;
+    color: limegreen;
+    background-color: deeppink;
+}
+
+ul.navbar-horizontal a {
+    display: block;
+    padding: 8px;
+}
+
+ul.navbar-horizontal a:hover {
+    background-color: cornsilk;
+    color: purple;
+}
