@@ -1,69 +1,94 @@
 .speech {
-    font-family: 'Arial', sans-serif;
-    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 16px; 
     color: black;
 }
 
 .direction {
-    font-family: 'Courier New', monospace;
-    font-size: 14px;
+    font-family: 'Courier New', sans-serif;
+    font-size: 14px; 
     color: black;
-    background-color: lightgray;
-    padding: 5px;
+    background-color: lightgray; 
+    transition: background-color 0.3s, color 0.3s; 
 }
 
 .direction:hover {
-    background-color: yellow;
+    background-color: blanchedalmond; 
+    color: darkred;
 }
+
+.name {
+    font-weight: bolder;
+} 
 
 .phi {
-    color: blue;
-}
-
-.neo {
-    color: green;
+    color: chartreuse;
 }
 
 .od {
-    color: red;
+    color: chocolate;
 }
-/* Table Styling */
+
+.neo {
+    color: midnightblue;
+}
+
 table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 20px 0;
-}
-
-th, td {
-    border: 1px solid black;
-    padding: 10px;
+    border-color: black;
+    width: 50%;
     text-align: center;
+    padding: 12px;
+    margin: 12px;
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-.speech {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: black;
+.col {
+    background-color: chartreuse;
 }
 
-.phi {
-    color: blue;
+th {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darksalmon;
+    color: maroon;
+    height: 50px;
 }
 
-.odysseus {
-    color: red;
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: darkorange;
+    height: 50px;
 }
 
-
-.phi:hover, .odysseus:hover {
-    text-shadow: 2px 2px 10px #8A2BE2; 
-    border: 2px solid #FF4500; 
-    padding: 5px; 
-    transition: all 0.3s ease-in-out;
+tr:hover {
+    background-color: yellow;
+    border: 2px solid black; 
 }
+
+.phi:hover {
+    font-size: medium;
+    color: hotpink;
+    text-shadow: 0 0 10px rgb(194, 120, 30);
+    border-style: dotted;
+    border-radius: 6px;
+}
+
+.od:hover {
+    font-size: medium;
+    color: olivedrab;
+    text-shadow: 0 0 10px rgb(160, 156, 156);
+    border-style: dotted ;
+    border-radius: 6px;
+}
+
+.neo:hover {
+    font-size: medium;
+    color: cornflowerblue;
+    text-shadow: 0 0 10px rgb(176, 88, 25);
+    border-style: dotted ;
+    border-radius: 6px;
+}
+
 ul.navbar-horizontal {
     list-style-type: none;
     margin: 0;
